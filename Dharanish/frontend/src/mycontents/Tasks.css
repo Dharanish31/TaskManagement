@@ -1,0 +1,91 @@
+.total{
+    background-image: url("./images/new1.jpg");
+    height:100vh;
+    position: relative;
+    overflow: hidden;
+
+}
+.total h1
+{
+   color:black;
+   text-align: center;
+
+}
+.task-container
+{
+    margin-left:550px;
+    width:400px;
+    padding:20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(237, 94, 5, 0.984);
+}
+.task-container label{
+    font-size: 20px;
+    font-weight: 600;
+    color:rgba(255, 0, 166, 0.926);
+}
+.task-container input{
+    background: transparent;
+    margin-top:20px;
+    margin-bottom: 15px;
+    height:25px;
+    width:350px;
+    border-radius: 10px;
+    outline: none;
+    border-style: solid;
+    border-color:rgb(255, 0, 204);
+    color:rgb(0, 20, 241);
+    font-size: 18px;
+}
+.task-container button{
+    padding:5px;
+    text-align: center;
+    background:rgba(245, 222, 179, 0.6);
+    border-style: solid;
+    border-color: rgb(255, 0, 144);
+    width:100px;
+    margin-top:10px;
+    border-radius: 5px;
+    margin-left: 135px;
+    color:rgb(241, 3, 241);
+}
+.task-container button:hover
+{
+    background:rgb(239, 161, 15);
+    color:blue;
+    cursor: pointer;
+}
+.results{
+    padding:10px;
+    display: flex;
+    flex-direction: row;
+    margin-top:100px;
+    
+}
+.result {
+    border-style:groove;
+    border-radius: 5px;
+     width:180px;
+     color:rgb(0, 255, 157);
+     margin-left:50px;
+     padding: 10px;
+     background:rgba(0, 0, 0, 0.564);
+}
+.result label
+{
+    color:rgb(255, 255, 255);
+    float: left;
+    
+}
+.result button{
+    background: rgb(252, 250, 252);
+    color:#f18a03;
+    border-style: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    width:60px;
+    padding:5px;
+    margin-right: 20px;
+    font-weight: bold;
+    margin-left:10px
+}
